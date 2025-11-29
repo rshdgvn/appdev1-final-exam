@@ -4,7 +4,7 @@ import {
   addTodoAPI,
   updateTodoAPI,
   deleteTodoAPI,
-} from "./todosAPI.js";
+} from "../API Helper/todosAPI.js";
 
 export const fetchTodos = createAsyncThunk("todos/fetchTodos", async () => {
   return await getTodosAPI();
